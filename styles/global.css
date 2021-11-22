@@ -1,0 +1,37 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Space Mono', monospace;
+  background-color: #0b0228;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-moon {
+  color: #ffcc00;
+}
+
+.text-elder {
+  color: #c9b8ff;
+}
+
+.text-violet {
+  color: #6f3ff5;
+  /* color: #5932c4; */
+}
+
+.bg-violet {
+  background: #6f3ff5;
+}
+
+.border-violet-dark {
+  border-color: #5932c4;
+}
