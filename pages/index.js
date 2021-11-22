@@ -118,6 +118,24 @@ export default function Home() {
               Moonshot Collective built TokenStream.Party as a means of rewarding our contributors.  We wanted to stream tokens to GitcoinDAO contributors in order to reward them for their contributions, but we wanted downside protection incase the contriburors went MIA.
             </p>
           </div>
+          {/* Question: 2 */}
+          <div className="flex flex-col w-full text-xl poppins my-8">
+            <h3 className="text-violet">
+              Who can use TokenStream.Party?
+            </h3>
+            <p className="mt-5 text-elder">
+              Anyone can use any ERC-20 token permissionlessly.
+            </p>
+          </div>
+          {/* Question: 3 */}
+          <div className="flex flex-col w-full text-xl poppins my-8">
+            <h3 className="text-violet">
+              I have a question. How can I get in touch?
+            </h3>
+            <p className="mt-5 text-elder">
+              Join the Moonshot Collective telegram <a href="https://t.me/joinchat/BHPBtqODJGo0NDdh">here</a> and say hi.
+            </p>
+          </div>
         </section>
       </main>
 
