@@ -20,7 +20,7 @@ export default function Home() {
           <div className="flex flex-1 flex-col items-start justify-between">
             <div className="mb-10 sm:mb-0">
               <div className="flex flex-row">
-                <h1 className="text-5xl text-moon">Tip Party</h1>
+                <h1 className="text-5xl text-moon">TokenStream.Party</h1>
                 <div className="ml-3">
                   <Icon />
                 </div>
@@ -34,7 +34,7 @@ export default function Home() {
             <div className="sm:hidden flex flex-1 sm:mb-0 shadow-md border border-violet-dark mb-8">
               <video width="100%" controls>
                 <source
-                  src="/assets/moonshot-tip-party-intro.mp4"
+                  src=""
                   type="video/mp4"
                 ></source>
               </video>
@@ -43,8 +43,7 @@ export default function Home() {
             {/* Description Text */}
             <div className="mb-10 sm:mb-0">
               <p className="poppins text-2xl text-elder leading-relaxed">
-                Send tips to multiple members of your <br />
-                community at once with a Tip Party.
+                Stream tokens to DAO contributors<br/> + be protected if they go MIA <br/>(contributors must claim tokens once a month).
               </p>
             </div>
 
@@ -59,7 +58,7 @@ export default function Home() {
           <div className="hidden sm:flex flex-1">
             <video width="100%" controls>
               <source
-                src="/assets/moonshot-tip-party-intro.mp4"
+                src="/assets/.mp4"
                 type="video/mp4"
               ></source>
             </video>
@@ -75,11 +74,10 @@ export default function Home() {
               <img
                 src="/assets/1.png"
                 className="w-8 h-8 mb-2 m-2 absolute"
-                alt="Create a tip room"
+                alt="Create a Token Stream"
               />
               <div className="flex flex-col items-center justify-center min-h-features">
-                Create a Tip Room with
-                <br />a "secret" word
+                Create a Token Stream
               </div>
             </div>
 
@@ -87,11 +85,10 @@ export default function Home() {
               <img
                 src="/assets/2.png"
                 className="w-8 h-8 mb-2 m-2 absolute"
-                alt="Invite people"
+                alt="claim"
               />
               <div className="flex flex-col items-center justify-center min-h-features">
-                Invite people to join
-                <br /> your Tip Room.
+                Contributors must claim <br/>their tokens once a week.
               </div>
             </div>
 
@@ -99,10 +96,10 @@ export default function Home() {
               <img
                 src="/assets/3.png"
                 className="w-8 h-8 mb-2 m-2 absolute"
-                alt="start tipping"
+                alt="claim"
               />
               <div className="flex flex-col items-center justify-center min-h-features">
-                Let the Tip party begin!
+                The stream re-fills everytime the contributor <br/>claims their tokens.  If the contributor goes MIA, <br/>they do not continue to get paid.
               </div>
             </div>
           </div>
@@ -115,78 +112,10 @@ export default function Home() {
           {/* Question: 1 */}
           <div className="flex flex-col w-full text-xl poppins my-8">
             <h3 className="text-violet">
-              I want to earn tokens. How do I receive tokens through Tip Party?
+              Why did you build TokenStream.Party?
             </h3>
             <p className="mt-5 text-elder">
-              First, you want to join a Tip Room. You can do this either by
-              entering the "secret" word in the home page, or you can directly
-              follow a link to the Tip Room. Once in the room, you simply click
-              "Sign In", and sign the message with your Ethereum wallet.
-            </p>
-          </div>
-          {/* Question: 2 */}
-          <div className="flex flex-col w-full text-xl poppins my-8">
-            <h3 className="text-violet">
-              I want to distribute tokens. How do I host my own Tip Party?
-            </h3>
-            <p className="mt-5 text-elder">
-              First, click the "Become a distributor" button in order to have
-              distributor rights. Once assigned as an "admin", enter a "secret"
-              word of your choice in order to load up a unique room. Then invite
-              other members by sharing this word with the members you want to
-              tip. Once your members have all successfully signed in, you can
-              distribute funds in any token of your choice.
-            </p>
-          </div>
-
-          {/* Question: 3 */}
-          <div className="flex flex-col w-full text-xl poppins my-8">
-            <h3 className="text-violet">Why did you build Tip.Party?</h3>
-            <p className="mt-5 text-elder">
-              The Moonshot Collective built it because we wanted to use it
-              ourselves. We have many community members from across the Ethereum
-              ecosystem, and wanted a universal way to reward engagement in the
-              Collective.
-            </p>
-          </div>
-
-          {/* Question: 4 */}
-          <div className="flex flex-col w-full text-xl poppins my-8">
-            <h3 className="text-violet">
-              I want to use Tip.Party for my own community. Is that cool?
-            </h3>
-            <p className="mt-5 text-elder">
-              Yes aboslutely, please go ahead. After you do, let us know what
-              you think.
-            </p>
-          </div>
-
-          {/* Question: 5 */}
-          <div className="flex flex-col w-full text-xl poppins my-8">
-            <h3 className="text-violet">
-              Where does the 0.01 ETH to ‘become a distributor’ go? Why would I
-              want to pay that?
-            </h3>
-            <p className="mt-5 text-elder">
-              You can host your own Tip.Party once you pay the 0.01 ETH fee! All
-              funding goes to funding public goods on Gitcoin Grants.
-            </p>
-          </div>
-
-          {/* Question: 6 */}
-          <div className="flex flex-col w-full text-xl poppins my-8">
-            <h3 className="text-violet">How can I get in touch?</h3>
-            <p className="mt-5 text-elder">
-              Join our telegram{" "}
-              <a
-                className="text-white text-lg"
-                href="https://t.me/joinchat/LiCUTmU5-IUyYWZh"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                here
-              </a>
-              .
+              Moonshot Collective built TokenStream.Party as a means of rewarding our contributors.  We wanted to stream tokens to GitcoinDAO contributors in order to reward them for their contributions, but we wanted downside protection incase the contriburors went MIA.
             </p>
           </div>
         </section>

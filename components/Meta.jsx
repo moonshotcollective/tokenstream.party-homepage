@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Meta() {
   const metaContent = {
-    title: 'Tip.Party',
-    url: 'https://tip.party',
-    description: `Send ETH/Coin tips to multiple members of your community at once with a Tip Party.`,
+    title: 'Tokenstream.Party',
+    url: 'https://tokenstream.party',
+    description: `Stream tokens to DAO contributors, which must be actively claimed once a week.`,
     image: '',
   }
 
